@@ -3,6 +3,7 @@ The basis for this version was the file doc/SIMULA-HISTORY found in the CIM Simu
 
 *This is currently a work in progress, the notes will have to be fiddled with a bit further.*
 
+```
 From jan@utri.no Thu Feb 23 08:00:32 1995
 Return-Path: <jan@utri.no>
 From: Jan Rune Holmevik <jan@utri.no>
@@ -10,6 +11,7 @@ X-Mailer: SCO System V Mail (version 3.2)
 To: cim@ifi.uio.no
 Subject: SIMULA Artikkelen
 Date: Thu, 23 Feb 95 8:04:07 MET
+```
 
 Copyright (C) 1995 Jan Rune Holmevik
 
@@ -25,10 +27,10 @@ notice identical to this one.
 
 # COMPILING SIMULA
 
-Jan Rune Holmevik
-Institute for Studies in Research and Higher Education
-Munthes gt. 29, N-0260 OSLO, Norway
-Tel: +47 22925172 - Fax: +44 22925173
+Jan Rune Holmevik  
+Institute for Studies in Research and Higher Education  
+Munthes gt. 29, N-0260 OSLO, Norway  
+Tel: +47 22925172 - Fax: +44 22925173  
 E-mail: jan@utri.no
 
 > NOTE: A printed version of the thesis in which this article
