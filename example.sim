@@ -1,0 +1,63 @@
+! Snarfed from http://people.cs.uchicago.edu/~mark/51050/Simula.Code.Example.pdf
+
+BEGIN	
+   CLASS Shape;
+   BEGIN	
+      procedure talkToMe;
+      BEGIN	
+	 OutText("But I am a Shape first and foremost");
+	 OutImage
+      END of getDefault;
+   END;
+   
+   Shape CLASS Rectangle(recName,width,height);! class with 3 parameters;
+   Text recName;
+   Real width, height;! Specification of parameters;
+   BEGIN
+      Real area, perimeter; ! these are our attributes;
+
+      PROCEDURE initialize; ! method definition;
+      BEGIN
+	 area := width * height;
+	 perimeter := 2*(width + height);
+      END of initialize;
+      
+      PROCEDURE displayYourself; ! a Method;
+      BEGIN
+	 OutText(" I am a rectangle: "); OutText(recName);
+	 OutImage;
+	 OutText(" width: "); OutFix(width,2,4);
+	 OutText(" height: "); OutFix(height,2,4);
+	 OutText(" area: "); OutFix(area,2,6);
+	 OutText(" perimeter: "); OutFix(perimeter,2,6);
+	 OutImage;
+      END of displayYourself;
+      
+      initialize; ! body of Rectangle;
+      OutText("A Rectangle has been created and initialized.");
+      OutImage;
+      displayYourself;
+   END of Rectangle;
+   
+   Rectangle CLASS Square;
+   BEGIN
+      height := width;!body of Square;
+      initialize;
+      OutText("A Square has been created and initialized");
+      OutImage;
+   END of Square;
+   
+   !Variables declared in the prefixed block: ;
+   ref(Rectangle) R1;
+   ref(Square) S1;
+   
+   !Block body - here the program starts: ;
+   OutText("Creating a new Rectangle"); OutImage;
+   r1 :- New Rectangle("Rectangle r1",5,4); OutText("Creating a new Square"); OutImage;
+   s1 :- New Square("Square s1",6,6);
+   OutText("Calling displayYourself on the new Square"); OutImage;
+   s1.displayYourself;
+   OutText("Calling talkToMe on the new Square"); OutImage;
+   s1.talkToMe;
+   OutImage;
+END;
