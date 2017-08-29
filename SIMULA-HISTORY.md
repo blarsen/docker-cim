@@ -1,7 +1,7 @@
-*NOTE: This version of "COMPILING SIMULA" has been reformatted to Markdown markup by bjorn.hell@nonews.net.
-The basis for this version was the file doc/SIMULA-HISTORY found in the CIM Simula compiler distribution (http://simula67.at.ifi.uio.no/cim.shtml)*
+*NOTE: This version of "COMPILING SIMULA" has been reformatted to Markdown by bjorn.hell@nonews.net.
+The basis for this version was the file doc/SIMULA-HISTORY found in the CIM Simula compiler distribution (http://simula67.at.ifi.uio.no/cim.shtml).*
 
-*This is currently a work in progress, the notes will have to be fiddled with a bit further.*
+*Warning: This document is currently a work in progress, the reformatting is not yet complete.*
 
 ```
 From jan@utri.no Thu Feb 23 08:00:32 1995
@@ -35,10 +35,10 @@ E-mail: jan@utri.no
 
 > NOTE: A printed version of the thesis in which this article
 originally appeared can be ordered from:
-
-> Center for Technology and Society
-University of Trondheim
-N-7055 DRAGVOLL, Norway.
+  
+Center for Technology and Society  
+University of Trondheim  
+N-7055 DRAGVOLL, Norway.  
 E-mail: Knut.Sorensen@avh.unit.no
 
 The SIMULA programming language was designed and built by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Centre (NCC) in Oslo between 1962 and 1967.[1](#1) It was originally designed and implemented as a language for discrete event simulation, but was later expanded and reimplemented as a full scale general purpose programming language. Although SIMULA never became widely used, the language has been highly influential on modern programming methodology. Among other things SIMULA introduced important object-oriented programming concepts like classes and objects, inheritance, and dynamic binding.
