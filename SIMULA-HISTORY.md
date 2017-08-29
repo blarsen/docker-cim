@@ -36,7 +36,7 @@ E-mail: jan@utri.no
 > NOTE: A printed version of the thesis in which this article
 originally appeared can be ordered from:
   
-Center for Technology and Society  
+> Center for Technology and Society  
 University of Trondheim  
 N-7055 DRAGVOLL, Norway.  
 E-mail: Knut.Sorensen@avh.unit.no
